@@ -1,0 +1,10 @@
+﻿<Application x:Class="Dz_11_WPF_Galary.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Dz_11_WPF_Galary"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <local:BitmapConverter x:Key="Converter"/>
+        <local:StringConverter x:Key="StrConvert"/>
+    </Application.Resources>
+</Application>
